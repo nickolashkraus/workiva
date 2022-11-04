@@ -6,8 +6,8 @@ package pkg
 // NOTES
 //   - Use two pointers.
 //
-// This question was so easy I was almost embarrassed I recieved it for a
-// Senior Software Engineer role. The interviewers also suggested I implment
+// This question was so easy I was almost embarrassed I received it for a
+// Senior Software Engineer role. The interviewers also suggested I implement
 // the same function recursively.
 func isPalindrome(s string) bool {
 	for i, j := 0, len(s)-1; i <= j; i, j = i+1, j-1 {
