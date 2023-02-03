@@ -1,3 +1,3 @@
-module github.com/NickolasHKraus/workiva
+module github.com/nickolashkraus/workiva
 
 go 1.18
