@@ -30,7 +30,7 @@ func twoSum2(nums []int, target int) [][]int {
 	table := make(map[int]int)
 	for i, num := range nums {
 		_, ok := table[target-num]
-		// Cannot use 'compl', since its zero value (0) is a valid value.
+		// Cannot use element, since its zero value (0) could be a valid value.
 		if ok {
 			compls = append(compls, []int{target - num, num})
 		} else {
