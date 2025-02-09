@@ -1,3 +1,3 @@
-module github.com/nickolashkraus/workiva
+module github.com/nickolashkraus/interviews/workiva
 
-go 1.18
+go 1.23.5
